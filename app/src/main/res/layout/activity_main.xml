@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal">
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner1"
+                android:layout_gravity="center"
+                android:layout_weight="0.28">
+            </Spinner>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2"
+                android:layout_gravity="center"
+                android:layout_weight="0.28">
+            </Spinner>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner3"
+                android:layout_gravity="center"
+                android:layout_weight="0.28">
+            </Spinner>
+            <LinearLayout
+                android:layout_width="142dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.1"
+                    android:text="최신순">
+                </RadioButton>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.1"
+                    android:text="우수작">
+                </RadioButton>
+            </LinearLayout>
+        </LinearLayout> //스피너, 라디오
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/text_hg"
+                android:layout_margin="10dp"
+                android:text="학과"
+                android:textColor="#0004ff"
+                android:textSize="20sp"></TextView>
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+        </LinearLayout> //리스트뷰
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="high_dg">
+        <item>스마트창의융합대학</item>
+        <item>신학대학</item>
+        <item>인문예술대학</item>
+        <item>사회과학대학</item>
+    </string-array>
+
+    <string-array name="middle_smart_hb">
+        <item>ICT융합공학부</item>
+        <item>디자인발명학부</item>
+        <item>도시환경바이오공학부</item>
+    </string-array>
+
+    <string-array name="low_ict_hg">
+        <item>컴퓨터공학</item>
+        <item>정보전기전자공학</item>
+        <item>통계데이터과학</item>
+        <item>소프트웨어</item>
+        <item>융합소프트웨어</item>
+        <item>스마트시티공학</item>
+    </string-array>
+
+    <string-array name="low_design_hg">
+        <item>디지털미디어디자인</item>
+        <item>화장품발명디자인</item>
+    </string-array>
+
+    <string-array name="low_citybio_hg">
+        <item>도시정보공학</item>
+        <item>환경에너지공학</item>
+        <item>해양바이오공학</item>
+        <item>식품영양학과</item>
+    </string-array>
+
+</resources>
